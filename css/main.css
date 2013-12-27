@@ -92,10 +92,10 @@ div div.my-album{visibility:visible}
 #header{position: fixed;top: 0px;left: 0px;width: 100%;height: 64px;background-color: #ffffff;z-index: 998;font-size: 14px;background-image: url(http://cdn.duitang.com/uploads/people/201312/24/20131224171457_PVaxG.gif);background-repeat: no-repeat;background-position: center top;border-bottom: 1px solid #ebebeb;}
 #puppet-header{display: block;width: 100%;height: 64px;}
 /* 堆糖 logo */
-#header .logo{display:block;width:140px;height:96px;text-indent:-9999px;background:url(http://cdn.duitang.com/uploads/files/201312/24/20131224171644_TXGCC.png) center 12px no-repeat;}
+#header .logo{display:block;float:left;width:140px;height:65px;text-indent:-9999px;background:url(http://cdn.duitang.com/uploads/files/201312/24/20131224171644_TXGCC.png) center 12px no-repeat;}
 
 /* switch holder */
-#switchholder{zoom:1;margin:0 0 16px;padding-left:100px;border-bottom:1px solid #ebebeb;}
+#switchholder{zoom:1;float:left;margin:34px 0px 0px 20px;border-bottom:1px solid #ebebeb;}
 #switchholder:after{content:"\0020";display:block;height:0;overflow:hidden;clear:both;}
 #switchholder li{float:left;margin:0 4px 0 0;list-style:none;}
 #switchholder li a{float:left;line-height:19px;padding:5px 16px 4px;+padding:6px 16px 3px;margin-top:2px;background-color:#f7f7f7;}

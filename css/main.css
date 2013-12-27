@@ -88,6 +88,11 @@ div div.my-album{visibility:visible}
 .woo-pager{text-align:center;}
 
 
+/* 顶部浮动 */
+#header{position: fixed;top: 0px;left: 0px;width: 100%;height: 64px;background-color: #ffffff;z-index: 998;font-size: 14px;background-image: url(http://cdn.duitang.com/uploads/people/201312/24/20131224171457_PVaxG.gif);background-repeat: no-repeat;background-position: center top;border-bottom: 1px solid #ebebeb;}
+#puppet-header{display: block;width: 100%;height: 64px;}
+/* 堆糖 logo */
+#header .logo{display:block;width:140px;height:96px;text-indent:-9999px;background:url(http://cdn.duitang.com/uploads/files/201312/24/20131224171644_TXGCC.png) center 12px no-repeat;}
 
 /* switch holder */
 #switchholder{zoom:1;margin:0 0 16px;padding-left:100px;border-bottom:1px solid #ebebeb;}
@@ -101,8 +106,6 @@ div div.my-album{visibility:visible}
 /* 网页背景 */
 html,body{background-color:#fff;}
 
-/* 堆糖 logo */
-h1 a{display:block;width:140px;height:96px;text-indent:-9999px;background:url(http://img4.duitang.com/uploads/files/201309/25/20130925232523_YSTKT.gif) center 12px no-repeat;}
 #footer{display:none;height:40px;padding:16px 0 0 16px;margin:0 0 0;border-top:1px solid #f7f7f7}
 
 /* 链接引导 */
